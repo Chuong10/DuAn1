@@ -5,11 +5,11 @@ include "Layout/header.php"; ?>
     <div class="panel-body">
         <form action="login_POST.php" method="POST">
             <div class="form-group"> 
-                <label for="frmUsername">Ten nguoi dung </label>
+                <label for="frmUsername">Tên Người Dùng</label>
                 <input id="frmUsername" name="frmUsername" type="text" class="form-control">
             </div>
             <div class="form-group"> 
-                <label for="frmPass">Mat khau </label>
+                <label for="frmPass">Mật Khẩu</label>
                 <input id="frmPass" name="frmPass" type="text" class="form-control">
             </div>
             <div class="form-group"> 
@@ -18,3 +18,4 @@ include "Layout/header.php"; ?>
             </div>
     </div>
 </div>
+ 
