@@ -1,5 +1,5 @@
 <?php
-include "../Layout/header.php"; ?>
+include "Layout/header.php"; ?>
 <div class="pamel panel-success">
     <div class="panel-heading">Login</div>
     <div class="panel-body">

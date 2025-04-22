@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /Anezu/ss12form/ss12
+RewriteBase /PROJECT/DuaAn1/
 
 
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

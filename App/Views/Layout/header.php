@@ -40,9 +40,9 @@ if (session_status() == PHP_SESSION_NONE) {
                 ) {
 
                     echo "<li><a href='#'>Hello" . $_SESSION['UserLogin'] . "</a></li>";
-                    echo "<li><a href='Logout.php'>Logout</a></li>";
+                    echo "<li><a href='logout.php'>Logout</a></li>";
                 } else {
-                    echo "<li><a href='Login.php'>Login</a></li>";
+                    echo "<li><a href='login.php'>Login</a></li>";
                 }
                 ?>
 

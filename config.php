@@ -1,10 +1,13 @@
 <?php
 return array(
-    'base' => '/Anezu/ss12form/ss12',
+    'base' => '/PROJECT/DuaAn1/',
+    'assets' => '/PROJECT/DuaAn1/assets/',
+    'baseURL' => 'http://localhost/PROJECT/DuaAn1/', 
     'db' => array(
-        'host' => 'localhost',
-        'name' => 'ProductDB',
+        'host'     => 'localhost',
+        'name'     => 'productdb',
         'username' => 'root',
         'password' => ''
     )
 );
+
